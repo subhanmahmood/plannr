@@ -1,0 +1,37 @@
+/* CSS declarations go here */
+/* CSS declarations go here */
+
+.light-text {
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.currentPage {
+    margin-left: 20px;
+}
+
+.content {
+    padding-top: 64px;
+}
+
+.preserve-spaces {
+    white-space: pre-line;
+}
+.profile-img {
+  margin-top:20px;
+  width:100px;
+  height:100px;
+}
+
+.messages-container {
+  max-height:500px;
+  overflow-y: scroll;
+}
+
+@media query (min-width:600px;) {
+
+  header,  main,  footer {
+    padding-left: 300px;
+  }
+
+}
